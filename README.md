@@ -62,8 +62,10 @@ Install the rubies you want to patch with float_warnings accordingly:
 
     rvm install 1.9.3 --patch float_warnings -n float_warnings
     rvm install 2.0.0 --patch float_warnings -n float_warnings
-    rvm install 2.1.7 --patch float_warnings -n float_warnings
-    rvm install 2.2.3 --patch float_warnings -n float_warnings
+    rvm install 2.1.8 --patch float_warnings -n float_warnings
+    rvm install 2.2.8 --patch float_warnings -n float_warnings
+    rvm install 2.3.5 --patch float_warnings -n float_warnings
+    rvm install 2.4.2 --patch float_warnings -n float_warnings
 
 or use rvm's name parsing magic:
 
@@ -77,13 +79,15 @@ or use rvm's name parsing magic:
 ... same for float_warnings:
     rvm install 1.9.3-float_warnings --patch float_warnings
     rvm install 2.0.0-float_warnings --patch float_warnings
-    rvm install 2.1.7-float_warnings --patch float_warnings
-    rvm install 2.2.3-float_warnings --patch float_warnings
+    rvm install 2.1.8-float_warnings --patch float_warnings
+    rvm install 2.2.8-float_warnings --patch float_warnings
+    rvm install 2.3.5-float_warnings --patch float_warnings
+    rvm install 2.4.2-float_warnings --patch float_warnings
 
 This will then require you to specify the ruby version for rvm like so:
 
-    rvm use 2.3.3-railsexpress
-    rvm usr 2.2.3-float_warnings
+    rvm use 2.3.5-railsexpress
+    rvm usr 2.3.5-float_warnings
 
 ## Notes
 
